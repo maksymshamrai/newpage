@@ -22,6 +22,31 @@
     text-decoration: none;
     color: black;
 }
+.invite {
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,117,117,1) 100%);  
+    padding: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.invite-title {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+.invite-button {
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    border: none;
+    width: 100px;
+    height: 50px;
+}
+.invite-button:hover {
+    background-color: orange;
+}
 .projects {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -85,12 +110,41 @@
 .ourteam-cards {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .ourteam-card {
     border: 5px solid black;
     border-radius: 20px;
     background: rgb(131,58,180);
     background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); 
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+}
+.games {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.games-title {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+}
+.games-cards {
+    display: flex;
+    justify-content: center;
+}
+.games-card {
+    border: 5px solid black;
+    border-radius: 20px;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); 
     font-family: 'Ubuntu', sans-serif;
     font-size: 15px;
     color: white;
@@ -106,11 +160,11 @@
 .footer-title {
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     color: white; 
 }
 .footer-text {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     color: white;
 }

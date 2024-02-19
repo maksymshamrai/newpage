@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+.header {
+    background: rgb(9,0,162);
+    background: linear-gradient(90deg, rgba(9,0,162,1) 0%, rgba(0,0,255,1) 35%, rgba(0,212,255,1) 100%);
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.header-title {
+    color: white;
+    font-weight: boldsty;
+}
+.header-navigation {
+    display: flex;
+    justify-content: center;
+}
+.header-navigation-list {
+    list-style: none;
+}
+.header-navigation-link {
+    text-decoration: none;
+    color: black;
+}
+.projects {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.projects-title {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+}
+.projects-cards {
+    display: flex;
+    justify-content: center;
+}
+.projects-card {
+    border: 5px solid black;
+    border-radius: 20px;
+    background: rgb(54,255,0);
+    background: linear-gradient(90deg, rgba(54,255,0,1) 0%, rgba(0,131,43,1) 35%, rgba(78,79,0,1) 100%);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+}
+.aboutus {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.aboutus-title {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+}
+.aboutus-text {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}

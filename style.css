@@ -66,3 +66,51 @@
     font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
 }
+.ourteam {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.ourteam-title {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px; 
+}
+.ourteam-text {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+.ourteam-cards {
+    display: flex;
+    justify-content: center;
+}
+.ourteam-card {
+    border: 5px solid black;
+    border-radius: 20px;
+    background: rgb(131,58,180);
+    background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); 
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+}
+.footer {
+    padding: 10px;
+    background-color: black;
+}
+.footer-title {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+    color: white; 
+}
+.footer-text {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    color: white;
+}

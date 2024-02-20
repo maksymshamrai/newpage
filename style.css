@@ -15,12 +15,14 @@
     display: flex;
     justify-content: center;
 }
-.header-navigation-list {
-    list-style: none;
-}
 .header-navigation-link {
     text-decoration: none;
     color: black;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+.header-navigation-link:hover {
+    color: yellow;
 }
 .invite {
     background: rgb(255,0,0);
@@ -163,8 +165,23 @@
     font-size: 40px;
     color: white; 
 }
+.footer-cards {
+    display: flex;
+    justify-content: space-between;
+}
 .footer-text {
     font-family: 'Ubuntu', sans-serif;
     font-size: 15px;
     color: white;
+}
+.footer-list {
+    list-style: none;
+}
+.footer-link {
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+.footer-link:hover {
+    color: skyblue;
 }

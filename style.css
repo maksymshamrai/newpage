@@ -65,17 +65,30 @@
     justify-content: center;
 }
 .projects-card {
-    border: 5px solid black;
+    border: 5px solid green;
     border-radius: 20px;
-    background: rgb(54,255,0);
-    background: linear-gradient(90deg, rgba(54,255,0,1) 0%, rgba(0,131,43,1) 35%, rgba(78,79,0,1) 100%);
+    background: rgb(140,255,0);
+    background: linear-gradient(0deg, rgba(140,255,0,1) 0%, rgba(0,255,19,1) 100%); 
     font-family: 'Ubuntu', sans-serif;
     font-size: 15px;
-    color: white;
+    color: black;
     padding: 10px;
     margin: 10px;
     width: 300px;
     height: 300px;
+}
+.projects-card-image {
+    border-radius: 10px;
+}
+.projects-card-link {
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    width: 20px;
+    height: 10px;
+    padding: 5px;
 }
 .aboutus {
     padding-top: 100px;
@@ -117,8 +130,8 @@
 .ourteam-card {
     border: 5px solid black;
     border-radius: 20px;
-    background: rgb(131,58,180);
-    background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); 
+    background: rgb(255,186,0);
+    background: linear-gradient(90deg, rgba(255,186,0,1) 0%, rgba(255,139,0,1) 100%); 
     font-family: 'Ubuntu', sans-serif;
     font-size: 15px;
     color: white;
@@ -126,6 +139,9 @@
     margin: 10px;
     width: 300px;
     height: 300px;
+}
+.ourteam-card-image {
+    border-radius: 15px;
 }
 .games {
     padding-top: 100px;

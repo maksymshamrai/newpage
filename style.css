@@ -171,6 +171,10 @@
     width: 300px;
     height: 300px;
 }
+.games-card-image {
+    border-radius: 20px;
+    margin-left: 75px;
+}
 .footer {
     padding: 10px;
     background-color: black;

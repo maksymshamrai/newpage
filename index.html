@@ -19,7 +19,34 @@
     <main>
         <section class="invite">
             <h2 class="invite-title">Take place in our team.</h2>
-            <button class="invite-button" type="button">Get started</button>
+            <button class="invite-button" data-modal-open>Get started</button>
+            <div class="backdrop is-hidden" data-modal>
+                <div class="modal">
+                    <button class="button button1" data-modal-close>Close</button>
+                    <h3 class="modal-title"> Your contacts </h3>
+            <form action="" class="form">
+                <label for="">
+                    Name <br>
+                    <input type="text">
+                </label>
+                <label for="">
+                    Phone <br>
+                    <input type="tel">
+                </label>
+                <label for="">
+                    Email <br>
+                    <input type="email">
+                </label>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <div class="checkbox">
+                    <input type="checkbox">
+                    <p>I agree <a href="">Terms of Use.</a></p>
+                </div>
+                <button type="button" class="button button2">Send</button>
+            </form>
+                </div>
+            </div>
+            <script src="script.js"></script>
         </section>
         <section class="projects">
             <h2 class="projects-title">Projects</h2>

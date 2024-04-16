@@ -120,10 +120,7 @@ textarea {
     justify-content: center;
 }
 .projects-card {
-    border: 5px solid green;
     border-radius: 20px;
-    background: rgb(140,255,0);
-    background: linear-gradient(0deg, rgba(140,255,0,1) 0%, rgba(0,255,19,1) 100%); 
     font-family: 'Ubuntu', sans-serif;
     font-size: 15px;
     color: black;
@@ -131,6 +128,16 @@ textarea {
     margin: 10px;
     width: 300px;
     height: 300px;
+}
+.projects-card1 {
+    background: rgb(99,59,0);
+    background: linear-gradient(0deg, rgba(99,59,0,1) 0%, rgba(142,82,0,1) 50%, rgba(34,255,76,1) 100%); 
+    color: white;
+}
+.projects-card2 {
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(224,0,255,1) 100%); 
+    color: white;
 }
 .projects-card-image {
     border-radius: 10px;
@@ -146,10 +153,12 @@ textarea {
     padding: 5px;
 }
 .aboutus {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     padding-left: 10px;
     padding-right: 10px;
+    background: rgb(228,167,16);
+    background: radial-gradient(circle, rgba(228,167,16,1) 0%, rgba(255,237,0,1) 100%); 
 }
 .aboutus-title {
     text-align: center;
@@ -166,11 +175,13 @@ textarea {
     padding-bottom: 100px;
     padding-left: 10px;
     padding-right: 10px;
+    background-color: #34eb3d;
 }
 .ourteam-title {
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 50px; 
+    font-size: 50px;
+    color: white;
 }
 .ourteam-text {
     text-align: center;
@@ -183,10 +194,9 @@ textarea {
     flex-wrap: wrap;
 }
 .ourteam-card {
-    border: 5px solid black;
     border-radius: 20px;
-    background: rgb(255,186,0);
-    background: linear-gradient(90deg, rgba(255,186,0,1) 0%, rgba(255,139,0,1) 100%); 
+    background: rgb(255,152,0);
+    background: linear-gradient(0deg, rgba(255,152,0,1) 0%, rgba(184,106,0,1) 50%, rgba(255,0,0,1) 100%); 
     font-family: 'Ubuntu', sans-serif;
     font-size: 15px;
     color: white;
@@ -197,27 +207,30 @@ textarea {
 }
 .ourteam-card-image {
     border-radius: 15px;
+    position: relative;
 }
 .games {
     padding-top: 100px;
     padding-bottom: 100px;
     padding-left: 10px;
     padding-right: 10px;
+    background-color: #3486eb;
 }
 .games-title {
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
     font-size: 50px;
+    color: white;
 }
 .games-cards {
     display: flex;
     justify-content: center;
 }
 .games-card {
-    border: 5px solid black;
     border-radius: 20px;
     background: rgb(63,94,251);
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); 
+    text-align: center;
     font-family: 'Ubuntu', sans-serif;
     font-size: 15px;
     color: white;
@@ -228,7 +241,7 @@ textarea {
 }
 .games-card-image {
     border-radius: 20px;
-    margin-left: 75px;
+    position: relative;
 }
 .footer {
     padding: 10px;
